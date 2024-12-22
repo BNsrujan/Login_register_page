@@ -79,12 +79,19 @@ export function Register() {
                 password,
             });
             console.log(response)
-            navigate("/dashboard");
+            if (response.status === 200) {
+                console.log(response);
+                navigate("/dashboard");
+            }
+            else if (response.status === 409) {
+                setLogError("Email already in use.");
+            }
+            else {
+                setLogError("Registration failed. Please try again.")
+            }
         } catch (err: unknown) {
             if (axios.isAxiosError(err)) {
                 setLogError(err.response?.data?.message || "An unexpected error occurred.");
-            } else if (err instanceof Error) {
-                setLogError("Network error: " + err.message);
             } else {
                 setLogError("An unexpected error occurred.");
             }
