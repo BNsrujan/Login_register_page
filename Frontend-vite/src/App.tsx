@@ -23,7 +23,7 @@ function App() {
         element: <LandingPage />
       },
       {
-        element: <MiddleWare />, // Protecting the following routes
+        element: <MiddleWare />,
         children: [
           {
             path: "/dashboard",

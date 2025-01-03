@@ -208,7 +208,7 @@ export function Register() {
                         </label>
                         {conferPasswordError && <p className=" absolute -bottom-5 text-red-500 text-sm">{conferPasswordError}</p>}
                     </div>
-                    {logError && <p className="text-red-500 text-sm">{logError}</p>}
+                    {/* {logError && <p className="text-red-500 text-sm">{logError}</p>} */}
                     <div className="mt-4 w-full">
                         <button className="w-full h-12 bg-blue-500 ring-offset-2 text-bold font-sans hover:bg-blue-600 shadow-md hover:shadow-lg transition duration-300 tracking-wide hover:border-none rounded-md px-4 text-center text-blue-50 outline-blue-600">
                             Submit
