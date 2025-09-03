@@ -145,7 +145,7 @@ The frontend expects a backend API with the following endpoints:
 }
 ```
 
-## 🚀 Deployment
+## Deployment
 
 ### Build for Production
 
