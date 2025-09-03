@@ -5,12 +5,12 @@ A authentication system built with React, TypeScript, and Vite. Features secure 
 ## Features
 
 - **User Authentication**: Complete login and registration system
-- **Protected Routes**: Middleware-based *route protection*
+- **Protected Routes**: Middleware-based route protection
 - **JWT Token Management**: Automatic token refresh and secure storage
-- **Form Validation**: Client-side validation with *real-time error feedback*
-- **Responsive Design**: *Mobile-first* design with Tailwind CSS
-- **Modern UI**: Clean, animated interface with *Framer Motion*
-- **TypeScript**: Full *type safety* throughout the application
+- **Form Validation**: Client-side validation with real-time error feedback
+- **Responsive Design**: Mobile-first design with Tailwind CSS
+- **Modern UI**: Clean, animated interface with Framer Motion
+- **TypeScript**: Full type safety throughout the application
 
 ## Tech Stack
 
